@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar admin</title>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>     
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--Import materialize.css-->
+   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <!--Let browser know website is optimized for mobile-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <script src="./jsboton.js"></script>
+   <script src="./jsselect.js"></script>
+   
+</head>
+<body>
+    <div class="container section">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://mail.google.com/mail/u/0?ui=2&ik=1f7e6da7b0&attid=0.1&permmsgid=msg-a:r-8547701377687193859&th=18e02b6209dac433&view=att&disp=safe&realattid=f_ltb1wlkk0" alt="Descripción de la imagen" width="1050" height="250">
+                        <p class="card-title"></p>
+                    </div>
+
+                    <div class="card-content">
+                        
+                        <h5 class="center-align">Buscar Administrador</h5>
+                        <form action=eliminaradmin.php method="get">
+                          <div class="center-align container">
+                            <div class="col s4"></div>
+                            <div class="row">
+                                                                                                                                                   
+                                <div class="input-field col s4">
+                                    <input id="last_name" type="text" name="busqueda" class="validate">                                   
+                                    <label for="last_name">No. de identificación</label>
+                                </div>
+                                <div class="col s3">
+                                  <button class="waves-effect waves-light blue darken-1 btn" type="submit" name="action">buscar<i class="material-icons right">send</i></button>
+                                  <br><br><br>
+                                  
+                                </div>
+                            </div>
+                            <br>
+                           
+                        </div>
+                      </form>                                                            
+                    </div>
+                    <div class="card-content">
+                        
+                      <h5 class="center-align">Modificar Correos de la base de datos</h5>
+                      <form action=eliminaradmin.php method="GET">
+                        <div class="center-align container">
+                          <div class="col s4"></div>
+                          <div class="row">
+                                                                                                                    
+                              <div class="input-field col s4">
+                                  <input id="last_name" type="text" name="correo" class="validate">                                   
+                                  <label for="last_name">Correo</label>
+                                 
+                              </div>
+                              <div class="col s3">
+                                <button class="waves-effect waves-light blue darken-1 btn" type="submit" name="modi">Modificar<i class="material-icons right">send</i></button>
+                                <br><br><br>
+                                
+                              </div>
+                          </div>
+                          <br>
+                         
+                      </div>
+                      <h5 class="center-align">Eliminar Administrador con el ID</h5>
+                      <form action=eliminaradmin.php method="GET">
+                        <div class="center-align container">
+                          <div class="col s4"></div>
+                          <div class="row">
+                                                                                                                    
+                              <div class="input-field col s4">
+                                  <input id="last_name" type="text" name="nombre" class="validate">                                   
+                                  <label for="last_name">ID</label>
+ 
+                              </div>
+                              <div class="col s3">
+                                <button class="waves-effect waves-light blue darken-1 btn" type="submit" name="eli">Eliminar<i class="material-icons right">send</i></button>
+                                <br><br><br>
+                                
+                              </div>
+                          </div>
+                          <br>
+                         
+                      </div>
+                    </form>                                                            
+                  </div>
+                </div>
+            </div>
+           
+        </div>
+
+    
+    
+</body>
+
+</html>

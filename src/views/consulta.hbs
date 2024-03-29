@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>     
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+       <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+       <!--Import Google Icon Font-->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <!--Import materialize.css-->
+       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+         <!--Let browser know website is optimized for mobile-->
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <script src="./jsselect.js"></script>
+</head>
+<body>
+
+    
+    <div class="container section">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://mail.google.com/mail/u/0?ui=2&ik=1f7e6da7b0&attid=0.1&permmsgid=msg-a:r-8547701377687193859&th=18e02b6209dac433&view=att&disp=safe&realattid=f_ltb1wlkk0" alt="Descripción de la imagen" width="1050" height="250">
+                      <p class="card-title"></p>
+                    </div>
+
+                    <div class="card-content">
+                        
+                        <div class="center-align row">
+                             <h5>Consulta de resultados</h5><br>
+                             
+                              <div class="input-field col s5">
+                                <select>
+                                  <option value="" disabled selected>Seleccione</option>
+                                  <option value="1">Pasaporte</option>
+                                  <option value="2">Cédula</option>
+                                  <option value="3">Cédula de extranjería</option>
+                                  <option value="4">Book Seaman</option>
+                                  <option value="5">Licencia de conducción</option>
+                                </select>
+                                <label>Seleccione tipo de identificación</label>
+                              </div>
+
+                              <div class="col s2"></div>
+
+                              <div class="input-field col s5">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">No. de identificación</label>
+                              </div>
+                              <button class="waves-effect waves-light blue darken-3 btn" type="submit" name="action">consultar
+                                <i class="material-icons right">send</i>
+                              </button>
+                        </div>   
+                              
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar paciente</title>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>     
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--Import materialize.css-->
+   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <!--Let browser know website is optimized for mobile-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <script src="./jsboton.js"></script>
+   <script src="./jsselect.js"></script>
+   
+</head>
+<body>
+    <div class="container section">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-image">
+                      <img src="https://mail.google.com/mail/u/0?ui=2&ik=1f7e6da7b0&attid=0.1&permmsgid=msg-a:r-8547701377687193859&th=18e02b6209dac433&view=att&disp=safe&realattid=f_ltb1wlkk0" alt="Descripción de la imagen" width="1050" height="250">
+                      <p class="card-title"></p>
+                    </div>
+
+                    <div class="card-content">
+                        
+                        <h5 class="center-align">Actualizar Paciente</h5>
+                        <div class="center-align container">
+                            <div class="row">
+                                <div class="input-field col s4">
+                                    <select>
+                                      <option value="" disabled selected>Seleccione</option>
+                                      <option value="1">Pasaporte</option>
+                                      <option value="2">Cédula</option>
+                                      <option value="3">Cédula de extranjería</option>
+                                      <option value="4">Book Seaman</option>
+                                      <option value="5">Licencia de conducción</option>
+                                    </select>
+                                    <label>Seleccione tipo de identificación</label>
+                                </div>    
+                                <div class="col s1"></div>
+                                <div class="input-field col s4">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">No. de identificación</label>
+                                </div>
+                                <div class="col s3">
+                                    <button class="waves-effect waves-light blue darken-1 btn" type="submit" name="action">buscar<i class="material-icons right">send</i></button>
+                                  </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                    <table class="highlight centered">
+                                        <thead>
+                                          <tr>
+                                              <th>Nombre</th>
+                                              <th>Apellido</th>
+                                              <th>Identificación</th>
+                                              <th>Fecha de atención</th>
+                                              <th>Motonave</th>
+                                              <th>Agencia</th>
+                                              <th>Actualizar</th>
+                                          </tr>
+                                        </thead>
+                                
+                                        <tbody>
+                                          <tr>
+                                            <td>Alvin</td>
+                                            <td>Eclair</td>
+                                            <td>P1054128B</td>
+                                            <td>10/07/2023</td>
+                                            <td>Clipper Nassau</td>
+                                            <td>Deep Blue</td>
+                                            <td><a class="waves-effect waves-light btn-flat" href=""><i class="material-icons right">update</i></a></td>
+                                                          
+                                          </tr>
+                                          <tr>
+                                            <td>Naresh</td>
+                                            <td>Kumar</td>
+                                            <td>V2329350</td>
+                                            <td>23/06/2023</td>
+                                            <td>Mountpark</td>
+                                            <td>Multiport</td>
+                                            <td><a class="waves-effect waves-light btn-flat" href=""><i class="material-icons right">update</i></a></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Jay</td>
+                                            <td>Pereda</td>
+                                            <td>P7182506B</td>
+                                            <td>30/05/2023</td>
+                                            <td>Hellas Apolo</td>
+                                            <td>Tank Oil</td>
+                                            <td><a class="waves-effect waves-light btn-flat" href=""><i class="material-icons right">update</i></a></td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                
+                            </div>
+                        </div>                                                               
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+    
+    
+</body>
+
+</html>
